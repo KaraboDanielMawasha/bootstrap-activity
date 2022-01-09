@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>e-Library</title>
+  <link rel="stylesheet" href="css/index.css">
+
+  <!-- bootstrap link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+  <!-- navigation bar -->
+
+  <nav class="navbar navbar-expand-md navbar-light">
+    <div class="container-xxl">
+      <!-- brand -->
+      <a href="#landing" class="navbar-brand">
+        <span class="fw-bold text-secondary">Dollar Books</span>
+      </a>
+
+      <!-- toggle button -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- nav bar items list -->
+      <div class="collapse navbar-collapse justify-content-end align-center" id="main-nav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#review">Reviews</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact Us</a>
+          </li>
+          <li class="nav-item d-md-none">
+            <a class="nav-link" href="#pricing">pricing</a>
+          </li>
+          <li class="nav-item d-none d-md-inline ms-5">
+            <a class="btn btn-warning text-white" href="#pricing">Buy Now</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- landing page -->
+  <section id="landing">
+
+    <div class="container-lg">
+
+      <div class="row justify-content-between align-items-center">
+
+        <!-- left details -->
+        <div class="col col-md-5 text-center text-md-start">
+
+          <h1>
+            <div class="display-2">e-Library Hooks</div>
+            <div class="display-6 text-muted">Your online library store</div>
+          </h1>
+
+          <p class="lead my-4 text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          </p>
+          <a href="#Pricing" class="btn btn-secondary btn-lg">Buy Now</a>
+
+        </div>
+
+        <!-- right details -->
+        <div class="col col-md-5 text-start d-md-block d-none">
+
+          <img class="img-fluid" src="images/ebook-cover.png" alt="eBook Cover img">
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- pricing plans -->
+  <section id="#pricing" class="bg-light my-5">
+
+    <div class="container-lg p-3">
+
+      <div class="text-center pt-1">
+        <h2>Pricing Plans</h2>
+        <p class="lead text-muted">Choose your suttable pricing plan.</p>
+      </div>
+
+      <!-- row -->
+      <div class="row justify-content-center align-items-center g-5">
+
+        <!-- 1st card -->
+        <div class="col-8 col-lg-4 col-xl-3">
+
+          <div class="card">
+            <div class="card-body text-center py-4">
+              <h5 class="card-title">Starter Edition</h5>
+              <p class="card-subtitle">eBook download only files.</p>
+              <p class="display-5 text-primary fw-bold text-danger">R150.00</p>
+              <p class="card-text mx-5 text-muted d-none d-lg-block text-start">Lorem ipsum dolor sit amet
+                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <a href="#" class="btn btn-outline-danger btn-lg mt-3">Buy Now</a>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- 2nd card -->
+        <div class="col-9 col-lg-4">
+          <div class="card border-1 border-danger">
+            <!-- card heading -->
+            <div class="card-header">
+              <h4 class="text-danger text-center">Ultimate Edition</h4>
+            </div>
+            <!-- body -->
+            <div class="card-body text-center py-5">
+              <h5 class="card-title">Complete Package</h5>
+              <p class="card-subtitle">eBook,Prints,and all updates.</p>
+              <p class="display-5 text-primary fw-bold text-danger">R250.00</p>
+              <p class="card-text mx-5 text-muted d-none d-lg-block text-start">Lorem ipsum dolor sit amet
+                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <a href="#" class="btn btn-outline-danger btn-lg mt-3">Buy Now</a>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- 3rd card -->
+        <div class="col-8 col-lg-4 col-xl-3">
+
+          <div class="card">
+            <div class="card-body text-center py-4">
+              <h5 class="card-title">Premium Edition</h5>
+              <p class="card-subtitle">full access to all files and downloads.</p>
+              <p class="display-5 text-primary fw-bold text-danger">R450.00</p>
+              <p class="card-text mx-5 text-muted d-none d-lg-block text-start">Lorem ipsum dolor sit amet
+                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <a href="#" class="btn btn-outline-danger btn-lg mt-3">Buy Now</a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+  </section>
+
+  <!-- topics -->
+
+  <section id="topics">
+    <div class="container-md">
+      <!-- header -->
+      <div class="my-5 text-center">
+        <h2>Inside the Book</h2>
+        <p class="lead text-muted">A quick glance at the topics you will learn.</p>
+      </div>
+
+      <!-- body of the section -->
+      
+    </div>
+  </section>
+
+
+
+
+  <!-- bootstrap javascript link -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
